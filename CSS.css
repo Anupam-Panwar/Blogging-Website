@@ -1,0 +1,45 @@
+body
+{
+    background-color: #7489ae;
+}
+#main
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+div
+{
+    display: inline-block;
+}
+img.first
+{
+    padding-left: 25px;
+    float: right;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+img.second
+{
+    padding-right: 30px;
+    float: left;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+.heading
+{
+    font-weight: bold;
+    font-size:35px;
+}
+ul
+{
+    font-size: 25px;
+}
+li
+{
+    padding: 2px;
+}
