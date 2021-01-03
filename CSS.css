@@ -43,3 +43,39 @@ li
 {
     padding: 2px;
 }
+header 
+{  
+    background-color: rgba(72, 130, 184, 0.959);  
+    position:fixed;  
+    left: 5px;  
+    right: 5px;  
+    top: 0px;  
+    height: 40px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 10px 0 black;   
+}  
+header ul
+{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    background-color: rgb(82, 82, 156);
+}
+header li a:hover 
+{
+    background-color: black;
+}
+header .active 
+{
+    background-color:black;
+}
