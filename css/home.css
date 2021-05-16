@@ -50,7 +50,7 @@ li a:hover {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/3.jpg");
+    url("../images/3.jpg");
 
   /* Set a specific height */
   height: 90vh;
@@ -86,22 +86,24 @@ li a:hover {
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  transition: 0.15s; /* 0.5 second transition effect to slide in the sidepanel */
 }
 
 /* The sidepanel links */
 .sidepanel a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 15px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: larger;
+  color: white;
   display: block;
   transition: 0.3s;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidepanel a:hover {
-  color: #f1f1f1;
+.sidepanel a:not(.closebtn):hover{
+  background-color: grey;
+  border-radius: 2px;
 }
 
 /* Position and style the close button (top right corner) */
