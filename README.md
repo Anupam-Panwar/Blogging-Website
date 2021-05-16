@@ -1,11 +1,12 @@
-# Project-1-Web-Development
-First Project
+# Blogging Website
+This repository contain all the files related to Blogging Website Project
 
-1.This project includes website development using basic HTML and CSS.
+## Objective
+* Creating the Frontend of the web page using HTML and CSS only.
+* Building the Frontend from scratch in order to get better understanding of these Mark Up Languages.
 
-2.External CSS is used in order to facilitate better changes in future.
+## Description
+* Web Page contains a blog related to some of the interesting places to visit in Srinagar
 
-
-Result of this project can be seen here :-
-
-https://anupam-panwar.github.io/Project-1-Web-Development/
+## Result 
+Result of this project can be viewed [here](https://anupam-panwar.github.io/Blogging-Website/)
