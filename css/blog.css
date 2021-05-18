@@ -6,8 +6,9 @@ main
     margin-top: 0px;
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 1vh;
 }
-.first-heading
+.heading
 {
     margin-top: 0;
     padding-top: 2vh;
@@ -15,12 +16,31 @@ main
     margin-bottom: 0;
     font-family: 'Courier New', Courier, monospace;
 }
-
-@media screen and (max-width: 600px)
+.display-pic
+{
+    width: 25vw;
+    height: auto;
+    display: inline;
+}
+.pic 
+{
+    display: block;
+    display: flex;
+    justify-content:space-around;
+}
+@media screen and (max-width: 610px)
 {
     main 
     {
         padding-left: 2vw;
         padding-right: 2vw;
+    }
+    .display-pic
+    {
+        width: 80vw;
+    }
+    .pic
+    {
+        flex-direction: column;
     }
 }

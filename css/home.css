@@ -110,7 +110,7 @@ li a:hover {
 
 /* Navbar responsive */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
   .topnav ul li a {
     display: none;
   }
