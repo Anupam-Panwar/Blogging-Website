@@ -1,65 +1,54 @@
-body
+main
 {
-    background-color: #7489ae;
+    background-color:rgba(0, 0, 0, 0.363);
+    color:beige;
+    padding:2vw;
+    display: flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    font-size: x-large;
+    min-height: 70vh;
 }
-li
+strong
 {
-    padding: 2px;
-}
-header 
-{  
-    background-color: rgba(72, 130, 184, 0.959);  
-    position:fixed;  
-    left: 5px;  
-    right: 5px;  
-    top: 0px;  
-    height: 40px;  
-    display: flex;  
-    align-items: center;  
-    box-shadow: 0 0 10px 0 black;   
-}  
-header ul
-{
-    font-size: 25px;
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-header li a
-{
-    display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration:none;
-    background-color: rgb(82, 82, 156);
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
 }
-header li a:hover 
-{
-    background-color: black;
-}
-header .active 
-{
-    background-color:black;
-}
-img
+.profile
 {
     border-radius: 50%;
-    border-color: antiquewhite;
-    border-style:groove;
-    border-width: 5px;
-    width: auto;
+    margin: 30px;
+    border:double white;
     height: auto;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-
+    max-width: 50vw;
+    max-height: 50vh;
 }
-.container
+
+.social
 {
-    font-size: xx-large;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style:italic;
-    text-align: center;
+    margin: 15px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    border:double white;
+}
+.social:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+@media screen and (max-width: 870px)
+{
+    main 
+    {
+        flex-direction: column;
+        padding: 5vw;
+    }
+    .profile
+    {
+        width: 80vw;
+        height: auto;
+    }
 }
