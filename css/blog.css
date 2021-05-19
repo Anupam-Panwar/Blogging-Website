@@ -16,17 +16,56 @@ main
     margin-bottom: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+.author
+{
+    display:flex;
+    justify-content: flex-end;
+}
+.quote
+{
+    text-align: center;
+    font-weight: bold;
+}
+p
+{
+    margin-top: 0;
+}
+h2
+{
+    margin-bottom: 1px;
+}
+h3
+{
+    margin-bottom: 1px;
+}
+ol
+{
+    font-weight: bold;
+}
+.content
+{
+    font-weight: normal;
+}
 .display-pic
 {
     width: 25vw;
     height: auto;
     display: inline;
+    border-radius: 7px;
+    margin:7px;
+    border:solid rgba(0, 0, 0, 0.404) 1px;
 }
 .pic 
 {
     display: block;
     display: flex;
     justify-content:space-around;
+}
+.chamba
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media screen and (max-width: 610px)
 {
@@ -37,7 +76,7 @@ main
     }
     .display-pic
     {
-        width: 80vw;
+        width: 75vw;
     }
     .pic
     {
