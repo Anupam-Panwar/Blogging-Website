@@ -71,7 +71,7 @@ li a:hover {
   font-family: "Courier New", Courier, monospace;
 }
 .sidepanel {
-  overflow: auto;
+  overflow-y: scroll;
   margin: 6px;
   height: 90vh; 
   width: 0;
