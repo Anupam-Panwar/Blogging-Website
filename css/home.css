@@ -13,6 +13,7 @@ body {
     #bdc3c7
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -70,9 +71,9 @@ li a:hover {
   font-family: "Courier New", Courier, monospace;
 }
 .sidepanel {
-  overflow-wrap:normal;
+  overflow: auto;
   margin: 6px;
-  height: 89vh; 
+  height: 90vh; 
   width: 0;
   position: fixed;
   z-index: 1;
