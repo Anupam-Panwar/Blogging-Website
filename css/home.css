@@ -71,7 +71,6 @@ li a:hover {
   font-family: "Courier New", Courier, monospace;
 }
 .sidepanel {
-  overflow-y:auto;
   margin: 6px;
   height: 90vh; 
   width: 0;
@@ -83,6 +82,14 @@ li a:hover {
   overflow-x: hidden; 
   padding-top: 60px;
   transition: 0.15s; 
+}
+.sidepanel::-webkit-scrollbar
+{
+    display: none;
+}
+.sidepanel a:last-child
+{
+    margin-bottom: 35px;
 }
 .sidepanel a {
   padding: 8px 8px 15px 32px;
